@@ -1,0 +1,150 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'roboto' , sans-serif;
+}
+
+body {
+height: 100vh;
+background:#ddd;
+background:url("/Users/atheer/Downloads/output-onlinepngtools (2).png");
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img {
+    
+    position: absolute;
+    width: 300px;
+    height: 297.43px;
+    left: 944px;
+    top: -70px;
+}
+
+.Container{
+
+    width: 900px;
+    background: #F3EDE4 ;
+    box-shadow: 0 2px 20px rgba(0,0,0,.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.translotor-property{
+
+   border:1px solid #ab3737; ;
+  
+}
+
+.translotor-property  .nav-item {
+
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #ab3737;
+    padding: 0 20px;
+}
+
+
+.translotor-property  .nav-item li select {
+
+    outline: none;
+    border-style: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color:#ab3737 ;
+    background-color: #f2eae1 ; 
+    /* box-shadow: 0 1px 1px rgba(0,0,0,.1);  */
+
+
+}
+
+.translotor-property  .nav-item li select:hover{
+    color: #111;
+}
+
+.bx-left-arrow{
+    font-size: 22px;
+    color:#ab3737;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    padding-left: 417px;
+}
+
+.bx-left-arrow:hover{
+    color: #111;
+    
+}
+
+.text-box {
+    display:flex;
+    
+}
+
+.property-from  , .property-trans{
+    width: 100%;
+    position: relative;
+
+    
+}
+
+.fromText{
+    width: 100%;
+    position: relative;
+    background-color: #F3EDE4 ;
+}
+.text-box   textarea {
+    width: 100%;
+    height: 250px; 
+    border-style: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color:#ab3737 ;
+    text-align: right;
+    position: relative;
+}
+.text-box  textarea:nth-child(1){
+    border-right: 1px solid #c7c7c7;
+}
+
+.text-box .icons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px
+}
+
+.icons  .bx {
+
+    width: 35px;
+    height: 35px;
+    background: #ddd;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color:#ab3737;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.icons  .bx:hover{
+
+    background: #606060;
+    color: wheat;
+}
+
+.code-length{
+    font-size: 18px;
+    color: #606060;
+}
